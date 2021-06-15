@@ -1,0 +1,29 @@
+.item {
+  padding: 10px;
+  border: solid 1px #777;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid 1px #777;
+}
+
+.normal {
+  background-color: #008000;
+}
+.important {
+  background-color: yellow;
+}
+.extremely {
+  background-color: red;
+}
+.done {
+  text-decoration-line: line-through;
+  background-color: rgb(245, 230, 230);
+}
